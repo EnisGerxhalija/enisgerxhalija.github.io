@@ -37,3 +37,13 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+.page__footer {
+  position: relative !important;
+  clear: both;
+  margin-top: 2em;
+  padding: 0.5em 0;
+  font-size: 0.75em;
+}
+.page__footer footer { margin: 0 auto; padding: 0 1em; }
+body { margin-bottom: 0 !important; }
