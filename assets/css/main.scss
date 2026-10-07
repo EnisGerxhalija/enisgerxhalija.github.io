@@ -42,8 +42,14 @@
   position: relative !important;
   clear: both;
   margin-top: 2em;
-  padding: 0.5em 0;
-  font-size: 0.75em;
+  background: transparent !important;
+  border-top: none !important;
 }
-.page__footer footer { margin: 0 auto; padding: 0 1em; }
+.page__footer footer {
+  margin: 0;
+  padding: 0.5em 1em;
+  text-align: right;
+}
+.page__footer-copyright { font-size: 0.7em; }
+.sidebar { z-index: 20; }
 body { margin-bottom: 0 !important; }
